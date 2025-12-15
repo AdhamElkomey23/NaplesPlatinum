@@ -5,7 +5,7 @@ import heroBg from "@assets/generated_images/luxury_waterfront_estate_hero_backg
 
 export function Hero() {
   return (
-    <section className="relative h-screen min-h-[700px] flex items-center justify-center">
+    <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center">
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
@@ -17,20 +17,16 @@ export function Hero() {
 
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 md:px-6 text-center">
-        <div className="max-w-4xl mx-auto space-y-6">
-          <div className="inline-block bg-accent/90 px-3 py-1 rounded-sm mb-2 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <span className="text-white text-xs font-bold uppercase tracking-widest">Naples Luxury Real Estate</span>
-          </div>
-          
+        <div className="max-w-4xl mx-auto space-y-4">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold text-white leading-tight drop-shadow-md animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
-            Discover Your Dream <br /> Waterfront Estate
+            Discover Your Dream Waterfront Estate
           </h1>
           
           <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto drop-shadow-sm font-light animate-in fade-in slide-in-from-bottom-6 duration-700 delay-200">
-            Experience unparalleled luxury living in Southwest Florida's most prestigious communities
+            Experience unparalleled luxury living in Southwest Florida
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-300">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-300">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-white min-w-[200px] h-14 text-sm uppercase tracking-wide rounded-sm font-medium">
               View Exclusive Listings
             </Button>
