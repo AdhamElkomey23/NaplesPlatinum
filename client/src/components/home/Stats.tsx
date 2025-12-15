@@ -30,7 +30,7 @@ export function Stats() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
           {stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center text-center group">
-              <stat.icon className="w-10 h-10 text-accent mb-4 opacity-80 group-hover:opacity-100 transition-opacity" />
+              <stat.icon className="w-14 h-14 text-accent mb-6 opacity-90 group-hover:opacity-100 transition-opacity" />
               <div className="text-4xl md:text-5xl font-bold mb-2 tracking-tight">{stat.number}</div>
               <div className="text-xs md:text-sm font-medium uppercase tracking-widest text-white/60">{stat.label}</div>
             </div>

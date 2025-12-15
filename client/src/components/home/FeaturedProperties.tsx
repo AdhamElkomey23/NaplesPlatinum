@@ -105,7 +105,7 @@ export function FeaturedProperties() {
                 />
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-300" />
                 {property.featured && (
-                  <Badge className="absolute top-4 left-4 bg-gold hover:bg-gold text-white border-none rounded-sm px-3 py-1 font-medium uppercase tracking-wide text-xs">
+                  <Badge className="absolute top-4 left-4 bg-[#d4af37] hover:bg-[#d4af37]/90 text-white border-none rounded-sm px-3 py-1 font-medium uppercase tracking-wide text-xs shadow-md">
                     Featured
                   </Badge>
                 )}
@@ -119,8 +119,8 @@ export function FeaturedProperties() {
                   <h3 className="text-xl font-serif font-bold text-primary line-clamp-1">{property.title}</h3>
                 </div>
                 
-                <div className="flex items-center text-gray-500 mb-4 text-sm">
-                  <MapPin className="h-4 w-4 mr-1" />
+                <div className="flex items-center text-gray-700 mb-4 text-base font-medium">
+                  <MapPin className="h-5 w-5 mr-1" />
                   {property.location}
                 </div>
 

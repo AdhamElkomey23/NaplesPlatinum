@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/home/Hero";
+import { SearchSection } from "@/components/home/SearchSection";
 import { FeaturedProperties } from "@/components/home/FeaturedProperties";
 import { Communities } from "@/components/home/Communities";
 import { WhyChooseUs } from "@/components/home/WhyChooseUs";
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <SearchSection />
         <FeaturedProperties />
         <Communities />
         <WhyChooseUs />
