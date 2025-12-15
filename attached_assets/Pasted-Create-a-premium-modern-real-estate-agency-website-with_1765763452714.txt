@@ -1,0 +1,307 @@
+Create a premium, modern real estate agency website with the following specifications:
+DESIGN REQUIREMENTS:
+Color Palette:
+
+Primary color: Deep navy blue (#1a2332)
+Accent color: Emerald green (#10b981) for all CTAs
+Background: Pure white (#ffffff) and light gray (#f8f9fa) for alternating sections
+Text: Dark charcoal (#2d3748) for body, white for hero overlays
+Use subtle gold accents (#d4af37) for "Featured" badges
+
+Typography:
+
+Headings: Elegant serif font (Playfair Display or Cormorant Garamond)
+Body text: Clean sans-serif (Inter or Poppins)
+Button text: Sans-serif, medium weight, uppercase
+Font sizes:
+
+H1: 3.5rem (mobile: 2rem)
+H2: 2.5rem (mobile: 1.75rem)
+H3: 1.75rem (mobile: 1.25rem)
+Body: 1rem
+Small text: 0.875rem
+
+
+
+
+PAGE STRUCTURE:
+1. NAVIGATION BAR (Sticky)
+
+Logo on left (text or image placeholder)
+Menu items: Home, Properties, Communities, About, Contact
+Right side: Phone number with icon + "Schedule Consultation" button (green)
+Transparent background on scroll to top, solid navy on scroll down
+Mobile: Hamburger menu
+
+
+2. HERO SECTION (Full viewport height)
+Layout:
+
+Full-width background image of luxury waterfront property
+Dark overlay (rgba 0,0,0,0.4) for text readability
+Centered content container (max-width: 1200px)
+
+Content:
+
+Badge/label above headline: "NAPLES LUXURY REAL ESTATE" (small, uppercase, green)
+Main headline: "Discover Your Dream Waterfront Estate" (large, bold, white, serif font)
+Subheadline: "Experience unparalleled luxury living in Southwest Florida's most prestigious communities" (white, 1.25rem)
+Two prominent CTAs side-by-side:
+
+Primary: "View Exclusive Listings" (green button, white text)
+Secondary: "Request Free Valuation" (white outline button, white text)
+
+
+
+Search Bar Below:
+
+4 fields in a row (white background, subtle shadow):
+
+Location dropdown (placeholder: "Select Location")
+Property Type dropdown (placeholder: "Property Type")
+Price Range dropdown (placeholder: "Price Range")
+Green "Search Properties" button with search icon
+
+
+On mobile: Stack vertically
+
+Technical:
+
+Background image should be high-quality (1920x1080 minimum)
+Overlay with dark gradient (darker at bottom)
+All text should have subtle text-shadow for readability
+
+
+3. FEATURED PROPERTIES SECTION
+Layout:
+
+White background
+Section title: "Signature Properties" (centered, serif, navy)
+Subheadline: "Explore our curated collection of premium waterfront estates" (centered, gray)
+3-column grid (desktop) / 1-column (mobile)
+"View All Properties →" link (top right, green)
+
+Property Cards (6 total):
+Each card contains:
+
+Large property image (16:9 aspect ratio)
+"Featured" badge (top-left corner, gold background, white text)
+Property name (H3, serif, navy)
+Location with pin icon (gray)
+Details row with icons:
+
+Beds: [icon] X Beds
+Baths: [icon] X Baths
+SqFt: [icon] X,XXX sqft
+
+
+Price (large, bold, navy, right-aligned): $X,XXX,XXX
+"View Details" button (green, full-width, appears on hover)
+
+Card hover effect:
+
+Lift shadow (0 10px 30px rgba(0,0,0,0.15))
+Image slight zoom (scale 1.05)
+"View Details" button slides up from bottom
+
+Sample properties to include:
+
+Luxury Beachfront Estate - Naples - 5 Beds, 6 Baths, 6,500 sqft - $4,250,000
+Modern Waterfront Villa - Marco Island - 4 Beds, 5 Baths, 5,200 sqft - $3,850,000
+Private Island Residence - Bonita Springs - 6 Beds, 7 Baths, 8,000 sqft - $7,500,000
+Contemporary Beach House - Naples - 4 Beds, 4 Baths, 4,200 sqft - $2,950,000
+Golf Course Estate - Estero - 5 Beds, 6 Baths, 6,800 sqft - $3,200,000
+Coastal Mansion - Cape Coral - 7 Beds, 8 Baths, 9,500 sqft - $8,750,000
+
+
+4. COMMUNITIES SECTION
+Layout:
+
+Light gray background (#f8f9fa)
+Section title: "Explore Southwest Florida Communities" (centered, serif, navy)
+Subheadline: "Find the perfect neighborhood to call home" (centered, gray)
+4-column grid (desktop) / 2-column (tablet) / 1-column (mobile)
+
+Community Cards (4 total):
+Each card:
+
+Full-width image of community (4:3 aspect ratio)
+Dark gradient overlay at bottom
+Community name (bottom-left, white, bold, serif)
+Property count (bottom-left, below name, white, small): "XX Properties Available"
+Card is clickable/hoverable
+On hover: Image brightens, title moves up slightly
+
+Communities to include:
+
+Naples - Coastal paradise with pristine beaches (Image: aerial beach view)
+Marco Island - Island living at its finest (Image: sunset over water)
+Bonita Springs - Family-friendly waterfront living (Image: marina/boats)
+Cape Coral - Florida's waterfront wonderland (Image: canal homes)
+
+
+5. WHY CHOOSE US SECTION
+Layout:
+
+White background
+Section title: "The Naples Platinum Difference" (centered, serif, navy)
+Subheadline: "Exceptional service, unmatched expertise, outstanding results" (centered, gray)
+4-column grid (desktop) / 2-column (tablet) / 1-column (mobile)
+
+Value Proposition Cards (4 total):
+Each card:
+
+Icon at top (large, green)
+Benefit title (H3, serif, navy)
+Description (2-3 sentences, gray)
+No borders, generous padding
+
+Value propositions:
+
+Icon: Star | Title: "Local Market Expertise" | Description: "Over 15 years of experience in Southwest Florida's luxury real estate market with deep knowledge of every community."
+Icon: Shield | Title: "Trusted Professionals" | Description: "Award-winning agents with proven track records. We've successfully closed over $500M in luxury property transactions."
+Icon: Heart | Title: "White-Glove Service" | Description: "Personalized attention for every client. From first viewing to closing day, we're with you every step of the journey."
+Icon: Home | Title: "Exclusive Listings" | Description: "Access to off-market properties and pre-launch opportunities not available to the general public."
+
+
+6. STATS SECTION
+Layout:
+
+Dark navy background (#1a2332)
+Full-width section
+4-column grid (equal width)
+Centered content
+
+Stats (4 metrics):
+Each stat:
+
+Large number (5rem font size, white, bold): "XXX+"
+Label below (white, uppercase, 0.875rem, letter-spacing)
+Icon above number (green, large)
+
+Statistics:
+
+Icon: Trophy | Number: $500M+ | Label: "IN PROPERTY SALES"
+Icon: Users | Number: 500+ | Label: "HAPPY CLIENTS"
+Icon: Home | Number: 15+ | Label: "YEARS EXPERIENCE"
+Icon: Award | Number: 98% | Label: "SATISFACTION RATE"
+
+
+7. TESTIMONIALS SECTION
+Layout:
+
+Light gray background (#f8f9fa)
+Section title: "What Our Clients Say" (centered, serif, navy)
+Subheadline: "Don't just take our word for it - hear from our satisfied clients" (centered, gray)
+3-column grid (desktop) / 1-column (mobile)
+
+Testimonial Cards (3 total):
+Each card:
+
+White background with subtle shadow
+5 gold stars at top
+Quote text (italic, gray, 1rem)
+Client photo (circular, 60px diameter)
+Client name (bold, navy)
+Client title/location (gray, small)
+
+Sample testimonials:
+
+⭐⭐⭐⭐⭐ | "Working with Naples Platinum was an absolute pleasure. They found us the perfect waterfront property and guided us through every step of the process. Highly recommended!" | Photo placeholder | Sarah Mitchell | Homeowner, Marco Island
+⭐⭐⭐⭐⭐ | "Professional, knowledgeable, and always available. They sold our estate in record time for above asking price. We couldn't be happier!" | Photo placeholder | Robert Chen | Former Seller, Naples
+⭐⭐⭐⭐⭐ | "The team's expertise in the luxury market is unmatched. They understood exactly what we were looking for and delivered beyond our expectations." | Photo placeholder | Jennifer Rodriguez | Homeowner, Bonita Springs
+
+
+8. TEAM SECTION
+Layout:
+
+White background
+Section title: "Meet Our Experts" (centered, serif, navy)
+Subheadline: "Award-winning agents dedicated to your success" (centered, gray)
+3-column grid (desktop) / 1-column (mobile)
+
+Agent Cards (3 total):
+Each card:
+
+Large professional headshot (square, grayscale filter)
+Agent name (bold, serif, navy)
+Title/role (green, small caps)
+Short bio (2-3 sentences, gray)
+"Contact [Name]" button (green outline)
+Social links (LinkedIn icon)
+
+Sample agents:
+
+Photo placeholder | James Sterling | Founder & Principal Broker | "With over 20 years in luxury real estate, James has built a reputation as Naples' most trusted property expert."
+Photo placeholder | Victoria Chase | Senior Partner | "Specializing in waterfront estates, Victoria has closed over $200M in sales and maintains a 100% client satisfaction rate."
+Photo placeholder | Michael Torres | Luxury Property Specialist | "Former architect turned realtor, Michael brings unique insights into property value and design potential."
+
+
+9. CTA SECTION (Final Push)
+Layout:
+
+Dark navy background with subtle pattern/texture
+Centered content (max-width: 800px)
+Generous padding (100px top/bottom)
+
+Content:
+
+Headline: "Ready to Find Your Dream Estate?" (large, white, serif, centered)
+Subheadline: "Let our experienced team guide you to the perfect luxury property in Southwest Florida" (white, centered, 1.125rem)
+Two prominent CTAs (centered, side-by-side):
+
+Primary: "Schedule Consultation" (green button, large)
+Secondary: "Browse All Properties" (white outline button)
+
+
+Contact info below (centered, white, with icons):
+
+Phone icon: "Call Us Today: (239) 555-1975"
+Email icon: "Email: info@naplesplatinum.com"
+
+
+
+
+10. FOOTER
+Layout:
+
+Dark charcoal background (#2d3748)
+4-column grid (desktop) / 1-column (mobile)
+Logo at top of first column
+
+Columns:
+Column 1: Brand
+
+Logo (white version)
+Tagline: "Your trusted partner in luxury real estate"
+Social media icons (white, hoverable to green)
+
+Column 2: Quick Links
+
+Home
+Properties
+Communities
+About Us
+Contact
+Blog
+
+Column 3: Communities
+
+Naples
+Marco Island
+Bonita Springs
+Cape Coral
+Estero
+Fort Myers
+
+Column 4: Contact
+
+Address: 1875 Pine Ridge Rd, Naples, FL 34108
+Phone: (239) 555-1975
+Email: info@naplesplatinum.com
+Hours: Mon-Sat 9AM-6PM
+
+Bottom bar:
+
+Copyright: "© 2024 Naples Platinum Realty Group. All rights reserved."
+Legal links: Privacy Policy | Terms of Service | Site Map
