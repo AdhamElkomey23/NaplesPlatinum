@@ -1,4 +1,4 @@
-import { Search } from "lucide-react";
+import { Search, MapPin, Home, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
@@ -18,8 +18,11 @@ export function SearchSection() {
 
         <div className="bg-white rounded-xl shadow-lg p-8 max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-end">
-            <div className="space-y-2">
-              <Label htmlFor="location" className="text-sm font-semibold text-primary uppercase tracking-wide">Location</Label>
+            <div className="space-y-3">
+              <Label htmlFor="location" className="text-sm font-medium text-gray-500 flex items-center gap-2">
+                <MapPin className="w-4 h-4" />
+                Location
+              </Label>
               <Select>
                 <SelectTrigger id="location" className="h-12 border-gray-200 bg-gray-50 focus:ring-0 rounded-lg">
                   <SelectValue placeholder="Select Location" />
@@ -33,8 +36,11 @@ export function SearchSection() {
               </Select>
             </div>
 
-            <div className="space-y-2">
-              <Label htmlFor="type" className="text-sm font-semibold text-primary uppercase tracking-wide">Property Type</Label>
+            <div className="space-y-3">
+              <Label htmlFor="type" className="text-sm font-medium text-gray-500 flex items-center gap-2">
+                <Home className="w-4 h-4" />
+                Property Type
+              </Label>
               <Select>
                 <SelectTrigger id="type" className="h-12 border-gray-200 bg-gray-50 focus:ring-0 rounded-lg">
                   <SelectValue placeholder="Property Type" />
@@ -47,8 +53,11 @@ export function SearchSection() {
               </Select>
             </div>
 
-            <div className="space-y-2">
-              <Label htmlFor="price" className="text-sm font-semibold text-primary uppercase tracking-wide">Price Range</Label>
+            <div className="space-y-3">
+              <Label htmlFor="price" className="text-sm font-medium text-gray-500 flex items-center gap-2">
+                <DollarSign className="w-4 h-4" />
+                Price Range
+              </Label>
               <Select>
                 <SelectTrigger id="price" className="h-12 border-gray-200 bg-gray-50 focus:ring-0 rounded-lg">
                   <SelectValue placeholder="Price Range" />
