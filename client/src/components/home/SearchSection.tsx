@@ -4,9 +4,9 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 
 export function SearchSection() {
   return (
-    <section className="relative z-20 -mt-24 px-4 pb-16">
-      <div className="container mx-auto">
-        <div className="bg-white rounded-md shadow-2xl p-6 max-w-5xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-700 delay-500">
+    <section className="relative z-20 py-12 bg-secondary border-b border-gray-100">
+      <div className="container mx-auto px-4">
+        <div className="bg-white rounded-md shadow-lg p-6 max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <Select>
               <SelectTrigger className="h-12 border-gray-200 bg-gray-50 focus:ring-0 rounded-sm">
