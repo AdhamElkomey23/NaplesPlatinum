@@ -96,8 +96,8 @@ export function FeaturedProperties() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {properties.map((property) => (
-            <Card key={property.id} className="group overflow-hidden border-none shadow-none hover:shadow-[0_10px_30px_rgba(0,0,0,0.1)] transition-all duration-300 rounded-lg bg-white">
-              <div className="relative aspect-[16/9] overflow-hidden rounded-t-lg">
+            <Card key={property.id} className="group overflow-hidden border border-gray-100/80 shadow-sm hover:shadow-[0_15px_30px_rgba(0,0,0,0.08)] hover:border-accent/20 transition-all duration-500 rounded-xl bg-white">
+              <div className="relative aspect-[16/9] overflow-hidden rounded-t-xl">
                 <img
                   src={property.image}
                   alt={property.title}
