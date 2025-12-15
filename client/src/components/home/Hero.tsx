@@ -17,11 +17,7 @@ export function Hero() {
 
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 md:px-6 text-center">
-        <div className="max-w-4xl mx-auto space-y-6">
-          <div className="inline-block bg-accent/90 px-3 py-1 rounded-sm mb-2 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <span className="text-white text-xs font-bold uppercase tracking-widest">Naples Luxury Real Estate</span>
-          </div>
-          
+        <div className="max-w-4xl mx-auto space-y-8">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold text-white leading-tight drop-shadow-md animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
             Discover Your Dream <br /> Waterfront Estate
           </h1>
