@@ -53,10 +53,6 @@ export function Navbar() {
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
-          <a href="tel:+12395551975" className="flex items-center space-x-2 text-sm font-medium hover:text-accent transition-colors">
-            <Phone className="h-4 w-4" />
-            <span>(239) 555-1975</span>
-          </a>
           <Button className="bg-accent hover:bg-accent/90 text-white font-medium uppercase tracking-wide rounded-sm px-5 h-9 text-xs">
             Schedule Consultation
           </Button>
